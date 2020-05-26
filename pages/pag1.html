@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+         console.log('Holi '+'we')
+
+         var Nombre = prompt('Ingresa tu nombre');
+         var Respuesta = ('Bienvenid@ ')+Nombre+('. Por favor, responde estas preguntas:');
+         alert(Respuesta);
+
+
+        var i=0;
+        var Preg1 = prompt('¿Cuanto es 2+2?');
+        var P1=4;
+        
+        if (Preg1 == P1) { 
+           console.log (i=i+1)
+           console.log('Correcto. Sumas 1 punto.');
+        }
+        else { 
+            console.log (i=i-1)
+            console.log('Incorrecto. Resta 1 punto.');
+        }
+
+        var Preg2 = prompt ('¿Cuanto es 3 x 3?');
+        var P2=9;
+
+        if (Preg2 == P2) { 
+            console.log (i=i+1)
+            console.log ('Correcto. Sumas 1 punto.')
+        }
+
+        else { 
+           console.log (i=i-1)
+           console.log('Incorrecto. Resta 1 punto.');
+        }
+        
+        var Preg3 = prompt ('¿Cuanto es 8 / 2?');
+        var P3=4;
+
+        if (Preg3 == P3) { 
+            console.log (i=i+1)
+            console.log ('Correcto. Sumas 1 punto.')
+        }
+
+        else { 
+           console.log (i=i-1)
+           console.log('Incorrecto. Resta 1 punto.');
+        }
+
+        var Preg4 = prompt ('¿Cuanto es 100 - 11?');
+        var P4=89;
+
+        if (Preg4 == P4) { 
+            console.log (i=i+1)
+            console.log ('Correcto. Sumas 1 punto.')
+        }
+
+        else { 
+           console.log (i=i-1)
+           console.log('Incorrecto. Resta 1 punto.');
+        }
+
+        var Preg5 = prompt ('¿Cuanto es 4x6?');
+        var P5=24;
+
+        if (Preg5 == P5) { 
+            console.log (i=i+1)
+            console.log ('Correcto. Sumas 1 punto.')
+        }
+
+        else { 
+           console.log (i=i-1)
+           console.log('Incorrecto. Resta 1 punto.');
+        }
+
+
+
+        alert('Tu puntaje es ' + i);
+
+        if (i == 5) {
+            console.log ('Conclusión: Ah pero sos un/a geni@');
+            alert('Conclusión: Ah pero sos un/a genio/a');
+
+        }else{
+            if (i < 5 && i > 2) {
+             console.log ('Conclucion: Por ahi va.');
+             alert('Conclusión: Por ahi va.');
+
+            }else{
+                if (i < 2 && i > -4) {
+                console.log ('Conclusión: Vamos mal eh');
+                alert('Conclusión: Vamos mal eh');
+
+                }else{
+                    if (i == -5) {
+                    console.log ('Conclusión: Estimad@ ' + Nombre + ', no me sorprendería que hayas repetido prescolar.');
+                    alert('Conclusión: Estimad@ ' + Nombre + ', no me sorprendería que hayas repetido prescolar.');
+                }    
+            }
+        }
+    }
+    </script>
+
+ </body>
+</html>
